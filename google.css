@@ -38,7 +38,7 @@
 }
 
 .parent-dot:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .sub-dot1,
@@ -86,7 +86,7 @@
 }
 
 .top-top:hover {
-  background-color: lightslategray;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .top-1 {
@@ -127,21 +127,25 @@ span {
   font-size: 92px;
   color: blue;
 }
+
 .o {
   font-size: 92px;
   color: orangered;
   text-transform: lowercase;
 }
+
 .o-2 {
   font-size: 92px;
   color: blue;
   text-transform: none;
 }
+
 .g-2 {
   font-size: 92px;
   color: blue;
   text-transform: lowercase;
 }
+
 .l {
   font-size: 92px;
   color: green;
@@ -168,7 +172,6 @@ span {
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
   justify-content: space-between;
   align-items: center;
   gap: 4px;
@@ -190,9 +193,9 @@ span {
   background-color: whitesmoke;
 }
 
-/* .search-box:hover {
-  border-style: inherit;
-} */
+.search-box:hover {
+  box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
 
 .camera-icon {
   border: 1px solid black;
@@ -240,7 +243,8 @@ span {
 }
 
 .ai-mode:hover {
-  border-style: groove;
+  /* border-style: groove; */
+  box-shadow: 2px 3px 3px 1px rgba(123, 0, 0, 0.2);
 }
 
 .search-icon-ai {
