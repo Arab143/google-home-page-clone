@@ -1,0 +1,461 @@
+.wrapper {
+  height: 97vh;
+  width: 100%;
+
+  text-transform: capitalize;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-left,
+.top-left1 {
+  border: 1px solid black;
+  border: none;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+}
+
+.parent-dot {
+  border: 1px solid black;
+  border: none;
+  height: 25px;
+  width: 25px;
+  padding: 6px;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2px;
+}
+
+.parent-dot:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sub-dot1,
+.sub-dot2,
+.sub-dot3 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.dot1,
+.dot2,
+.dot3 {
+  height: 3px;
+  width: 3px;
+  margin: 1px;
+
+  background-color: black;
+  border-radius: 100%;
+}
+
+.top {
+  border: 1px solid black;
+  border: none;
+  height: px;
+}
+
+.top:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top-top {
+  border: 1px solid black;
+  border: none;
+  border-radius: 100%;
+  padding: 2px;
+
+  height: 35px;
+  width: 35px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-top:hover {
+  background-color: lightslategray;
+}
+
+.top-1 {
+  border: 1px solid black;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+
+  font-size: larger;
+  padding: 7px;
+
+  background-color: lightslategray;
+
+  color: aliceblue;
+}
+
+.top-1:hover {
+  cursor: pointer;
+}
+
+.header {
+  border: 1px solid black;
+  border: none;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.g {
+  font-size: 92px;
+  color: blue;
+}
+.o {
+  font-size: 92px;
+  color: orangered;
+  text-transform: lowercase;
+}
+.o-2 {
+  font-size: 92px;
+  color: blue;
+  text-transform: none;
+}
+.g-2 {
+  font-size: 92px;
+  color: blue;
+  text-transform: lowercase;
+}
+.l {
+  font-size: 92px;
+  color: green;
+  text-transform: lowercase;
+}
+
+.e {
+  font-size: 92px;
+  color: orangered;
+  text-transform: lowercase;
+}
+
+.search-box {
+  border: 1px solid black;
+  border: none;
+
+  height: 40px;
+  width: 700px;
+  padding: 3px;
+  margin-inline: auto;
+
+  background-color: whitesmoke;
+  border-radius: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+#search-bar {
+  border: 1px solid black;
+  border: none;
+  outline: none;
+
+  height: 40px;
+  width: 450px;
+
+  font-size: 14px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+/* .search-box:hover {
+  border-style: inherit;
+} */
+
+.camera-icon {
+  border: 1px solid black;
+  border: none;
+  object-fit: contain;
+  height: 30px;
+  width: 30px;
+}
+.camera-icon:hover {
+  cursor: pointer;
+}
+
+.search-icon {
+  border: 1px solid black;
+  border: none;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.search-box:hover {
+  cursor: pointer;
+}
+
+.microphone-icon {
+  border: 1px solid;
+  border: none;
+  height: 25px;
+  width: 25px;
+}
+.microphone-icon:hover {
+  cursor: pointer;
+}
+
+.ai-mode {
+  border: 1px solid;
+  border: none;
+  border-radius: 10px;
+
+  height: 27px;
+  margin: 4px;
+
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.ai-mode:hover {
+  border-style: groove;
+}
+
+.search-icon-ai {
+  border: 1px solid black;
+  border: none;
+  height: 27px;
+  width: 30px;
+
+  object-fit: contain;
+}
+
+.text-ai {
+  width: 60px;
+  font-size: 14px;
+}
+
+.google-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+/* .google-row:hover {
+  border-style: groove;
+} */
+
+.google-search {
+  width: 100px;
+  border: 0px;
+  border-radius: 7px;
+
+  background-color: lightgrey;
+
+  padding: 10px 5px;
+  padding-left: 10px;
+}
+.google-search:hover {
+  cursor: pointer;
+  border-style: groove;
+}
+
+.google-search2 {
+  border: 0px;
+  border-radius: 7px;
+  width: 120px;
+
+  padding: 10px;
+  padding-left: 15px;
+
+  background-color: lightgrey;
+}
+.google-search2:hover {
+  cursor: pointer;
+  border-style: groove;
+}
+
+.google-search:hover {
+  /* background-color: darkkhaki; */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon-new {
+  border: solid black;
+  border: none;
+  height: 27px;
+  width: 30px;
+  margin: 2px;
+
+  object-fit: contain;
+}
+
+#new-1 {
+  color: red;
+  margin-right: 3px;
+  font-size: small;
+}
+
+.last-line {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.last-line1 {
+  font-size: 13px;
+  color: darkgray;
+}
+
+.hausa,
+.igbo,
+.ede,
+.yoruba,
+.nigeria-pidgin {
+  font-size: 13px;
+}
+
+.hausa:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.igbo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.yoruba:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nigeria-pidgin:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-container {
+  border: 1px solid green;
+  border: none;
+  width: 100%;
+
+  background-color: lightgray;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.foot:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nigeria {
+  border: 1px solid white;
+  /* border: none; */
+  border-width: 2px;
+  margin-top: auto;
+
+  background-color: lightgray;
+
+  padding: 15px;
+  padding-left: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-main {
+  width: auto;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.foot {
+  border: 1px solid black;
+  border: none;
+  padding: 5px;
+  gap: 5px;
+}
+
+.leaf {
+  height: 15px;
+}
+
+.foot-1,
+.foot-2,
+.foot-3 {
+  border: 1px solid black;
+  border: none;
+  padding: 5px;
+}
+
+.foot-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
+
+.foot-1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.foot-2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.foot-3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
