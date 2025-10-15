@@ -1,0 +1,15 @@
+
+
+table{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    border-spacing: 5px;
+
+    
+}
+
+td{
+    padding: 15px;
+    margin: 15px;
+}

@@ -1,0 +1,137 @@
+.wrapper{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+/* 
+    display: flex;
+    flex-wrap: wrap; */
+}
+
+
+.div-1, .div-2, .div-3, .div-4, .div-5, .div-6{
+    border: 1px solid green;
+    padding: 10px;
+    /* border-radius: 10px; */
+    height: fit-content;
+    width: fit-content;
+    text-transform: capitalize;
+
+    background-color: blueviolet;
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.div, .second-row, .third-row, .fourth-row, .fifth-row, .sixth-row{
+    height: 47px;
+    width: 40px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.div{
+    width: 50px;
+    height: 30px;
+    /* text-align: justify; */
+}
+
+.second-row{
+   width: 47px;
+   height: 40px;
+}
+
+.second-rows{
+    height: 40px;
+    width: 90px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.third-row{
+    width: 46px;
+    height: 40px;
+}
+
+.third-rows{
+    height: 40px;
+    width: 90px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+    align-content: center;
+}
+
+.caps-lock{
+    height: 40px;
+    width: 100px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+
+    align-content: center;
+}
+
+.enter{
+    height: 44px;
+    width: 8em;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+
+    /* padding-bottom: 5px; */
+}
+
+.fourth-row{
+    width: 46px;
+    height: 40px;
+}
+
+.shift{
+    height: 44px;
+    width: 10em;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fifth-row{
+    width: 46px;
+    height: 40px;
+}
+
+
+.sixth-row{
+    height: 50px;
+    width: 45px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.space-bar{
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+    width: 20em;
+}
