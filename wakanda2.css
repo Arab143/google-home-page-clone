@@ -17,6 +17,7 @@
 .frame-216 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 32px;
 }
 
@@ -233,22 +234,25 @@
 
 .frame-209 {
   display: flex;
+  flex-direction: column;
 }
 
 .frame-2044 {
-  width: 1142;
-  height: 72;
-
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
 
   background: #23c1aa40;
 
-  width: 1142;
+  width: 1078px;
   height: 72;
   angle: 0 deg;
   opacity: 1;
+
+  display: flex;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
+
   border-right-width: 1px;
   padding-top: 16px;
   padding-right: 32px;
@@ -264,6 +268,278 @@
   leading-trim: NONE;
   line-height: 40px;
   letter-spacing: 0px;
+  /* text-align: center; */
 
   color: #ffffff;
+}
+
+.first-row {
+  width: 1142px;
+  height: 90;
+  angle: 0 deg;
+  opacity: 1;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.reg-box {
+  width: 571px;
+  height: 90;
+  angle: 0 deg;
+  opacity: 1;
+
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border-right-width: 0.5px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+
+  border-width: 0px, 0.5px, 1px, 1px;
+
+  border-style: solid;
+
+  border-color: #23c1aa80;
+}
+
+.reg-box div {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.reg-box .sept {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+}
+
+.hack-box {
+  width: 571px;
+  height: 90;
+  angle: 0 deg;
+  opacity: 1;
+
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border-right-width: 0.5px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+
+  border-width: 0px, 0.5px, 1px, 1px;
+
+  border-style: solid;
+
+  border-color: #23c1aa80;
+}
+
+.hack-box div {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.hack-box .oct-nov {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+}
+
+.frame-228 {
+  width: 1142;
+  height: 660;
+  /* angle: 0 deg;
+opacity: 1;
+top: 3946px;
+left: 149px; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.other {
+  width: 615px;
+  height: 52;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 16px;
+
+  align-self: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  leading-trim: NONE;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.frame-228-sub {
+  width: 1142;
+  height: 280;
+  angle: 0 deg;
+  opacity: 1;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 24px;
+}
+
+.frame-228-sub div {
+  width: 559px;
+  height: 280;
+  angle: 0 deg;
+  opacity: 1;
+  padding-top: 56px;
+  padding-right: 32px;
+  padding-bottom: 56px;
+  padding-left: 32px;
+  gap: 10px;
+  border-radius: 32px;
+
+  background: linear-gradient(90deg, #8daf51 0%, #c5ee4f 100%);
+  box-shadow: 0px 0px 5px 5px #00484f;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0.5;
+  text-align: center;
+
+  color: #00484f;
+}
+
+.frame-228-sub span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0.5;
+  text-align: center;
+
+  color: #00484f;
+}
+
+.footer {
+  display: flex;
+
+  background: #4d4d4d4d;
+}
+
+.footer-sub {
+  width: 1048px;
+  height: 24;
+  padding: 3px;
+  justify-content: space-between;
+  angle: 0 deg;
+  opacity: 1;
+  top: 38px;
+  left: 196px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.built {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+
+  color: #919094;
+
+  display: flex;
+  gap: 2px;
+}
+
+.built img {
+  width: 20px;
+  height: 18px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.built span {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.footer-img {
+  width: 192px;
+  height: 24;
+  angle: 0 deg;
+  opacity: 1;
+
+  display: flex;
+  gap: 32px;
+}
+
+.footer-img img {
+  width: 18px;
+  height: 18px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 3px;
+  left: 3px;
+  border-width: 1.5px;
 }
