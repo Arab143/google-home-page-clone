@@ -1,6 +1,5 @@
 .dao-body {
-  border: 5px solid greenyellow;
-  width: 1440px;
+  width: 98vw;
   height: 4832px;
 
   background-color: #111211;
@@ -10,15 +9,15 @@
 
 .group-6 {
   border: 1px solid wheat;
-  width: 1440px;
-  height: 1024px;
+  width: 98vw;
+  /* height: 1024px; */
 
   position: relative;
 }
 
 .frame-186 {
-  border: 4px solid wheat;
-  width: 1440px;
+  border: 1px solid wheat;
+  width: 98vw;
   height: 653px;
 
   position: relative;
@@ -28,7 +27,7 @@
 }
 
 .background-img {
-  width: 1440px;
+  width: 98vw;
   height: 686px;
 
   position: absolute;
@@ -43,16 +42,18 @@
 
   position: absolute;
   top: 446px;
-  left: 524px;
+  left: 495px;
 }
 
 .nav-bar {
+  /* margin-top: -580px; */
   border-bottom: 1px solid #f2f4f7;
 
   background-color: #1d1b20;
 
-  /* width: 1440px; */
+  width: 93.44vw;
   /* height: 80px; */
+  /* width: 1440px; */
 
   padding: 32px 32px;
 
@@ -61,11 +62,12 @@
 
   display: flex;
   flex-direction: row;
-  /* gap: 10px; */
+  gap: 10px;
 }
 
 .nav-box {
-  width: 1376px;
+  width: 98vw;
+  /* width: 1376px; */
   /* height: 44px; */
 
   display: flex;
@@ -87,12 +89,14 @@
   width: 145.65016174316406;
   height: 19.47577476501465;
 
+  /* width: auto; */
   align-self: center;
 }
 
 .dao-box {
   position: relative;
 }
+
 .dao {
   width: 13.732388496398926;
   height: 22.71612548828125;
@@ -116,6 +120,8 @@
   display: flex;
   flex-direction: row;
   gap: 40.83px;
+
+  text-transform: capitalize;
 }
 
 .text-gov,
@@ -223,9 +229,9 @@
 }
 
 .frame-177 {
-  border: 4px solid red;
-  width: 451px;
-  height: 318px;
+  /* border: 1px solid red; */
+  width: 481px;
+  /* height: 318px; */
 
   /* top: 169px;
   left: 494.5px; */
@@ -239,7 +245,7 @@
 
   position: absolute;
   top: 169px;
-  left: 494.5px;
+  left: 454.5px;
 }
 
 .com-14 {
@@ -255,12 +261,13 @@
   /* height: 36px; */
 
   padding-top: 8px;
-  padding-right: 16px;
+  padding-right: 0px;
   padding-bottom: 8px;
   padding-left: 16px;
   gap: 4px;
   border-radius: 50px;
 
+  display: flex;
   align-self: center;
 }
 
@@ -276,7 +283,7 @@
   leading-trim: NONE;
   line-height: 20px;
   letter-spacing: 0.25px;
-  vertical-align: middle;
+  text-align: center;
   color: rgba(232, 249, 255, 1);
 }
 
@@ -295,9 +302,9 @@
 }
 
 .naija-text {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 460px;
-  height: 128px;
+  /* height: 128px; */
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -308,7 +315,6 @@
   line-height: 64px;
   letter-spacing: -0.25;
   text-align: center;
-  vertical-align: middle;
   text-transform: capitalize;
 
   /* line-break: initial; */
@@ -328,9 +334,10 @@
 }
 
 .frame-177subtext {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 480px;
-  height: 40px;
+  /* height: 40px; */
+
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -359,7 +366,7 @@
 
 .frame-215 {
   width: 329px;
-  height: 50px;
+  /* height: 50px; */
 
   display: flex;
   flex-direction: row;
@@ -376,7 +383,7 @@
   /* height: 50px; */
 
   padding-top: 16px;
-  padding-right: 32px;
+  padding-right: 22px;
   padding-bottom: 16px;
   padding-left: 32px;
   background: #c5ee4f;
@@ -404,9 +411,9 @@
   /* height: 50px; */
 
   padding-top: 16px;
-  padding-left: 32px;
+  padding-left: 22px;
   padding-bottom: 16px;
-  padding-right: 32px;
+  padding-right: 22px;
   box-shadow: 0px 1px 2px 0px #1018280d;
 
   gap: 16px;
@@ -424,8 +431,9 @@
 }
 
 .second-section {
+  width: 98vw;
   /* border: 4px solid aqua; */
-  width: 1440px;
+  /* width: 1440px; */
   height: 1337px;
   transform: rotate(-180deg);
   angle: -180 deg;
@@ -438,17 +446,16 @@
 }
 
 .frame-201 {
-  border: 1px solid aqua;
   width: 1142px;
-  height: 676px;
+  /* height: 676px; */
 
   transform: rotate(-180deg);
   /* angle: -180 deg;
   opacity: 1; */
 
   position: relative;
-  top: 479px;
-  left: 149px;
+  top: 179px;
+  left: 100px;
 
   display: flex;
   flex-direction: column;
@@ -457,7 +464,7 @@
 
 .frame-189 {
   width: 910px;
-  height: 116px;
+  /* height: 116px; */
 
   /* transform: rotate(-180deg); */
   angle: -180 deg;
@@ -465,10 +472,11 @@
 
   display: flex;
   flex-direction: column;
+  align-self: center;
   gap: 16px;
 }
 
-.algo {
+.algo-box {
   width: 281px;
   height: 36px;
   angle: 0 deg;
@@ -484,6 +492,13 @@
   border-radius: 50px;
   border: 2px solid #c5ee4f;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.algo {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -492,7 +507,7 @@
   leading-trim: NONE;
   line-height: 20px;
   letter-spacing: 0.25px;
-  text-align: middle;
+  text-align: center;
 
   color: #e8f9ff;
 
@@ -524,7 +539,7 @@
 
 .frame-200 {
   width: 1142px;
-  height: 496px;
+  /* height: 496px; */
   angle: -180 deg;
   opacity: 1;
 
@@ -592,7 +607,6 @@
 }
 
 .frame-191 {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   gap: 13px;
@@ -625,7 +639,6 @@
 }
 
 .frame-192 {
-  border: 1px solid black;
   display: flex;
   gap: 13px;
 
@@ -657,7 +670,6 @@
 }
 
 .frame-193 {
-  border: 1px solid black;
   display: flex;
   gap: 13px;
 
@@ -689,7 +701,6 @@
 }
 
 .frame-194 {
-  border: 1px solid black;
   display: flex;
   gap: 13px;
 
@@ -723,6 +734,7 @@
 .frame-199 {
   display: flex;
   flex-direction: column;
+  align-self: center;
   gap: 16px;
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -735,9 +747,6 @@
   letter-spacing: 0px;
 
   color: #ffffff;
-
-  border: 1px solid #000000;
-  border-color: #c5ee4f;
 }
 
 .frame-199 div {
